@@ -118,6 +118,7 @@ Table Interactions{
   test_id bigint
   candidate_feedback varchar
   report_send_to_user bit
+  url varchar(100)
   channel_1 varchar(20)
   channel_2 varchar(20)
   created_at timestamp [default: `now()`]
