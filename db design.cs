@@ -26,7 +26,7 @@ Table Employee_data{
 Table Company_Users{
   id bigint[pk]
   company_id bigint[increment]
-  creator_name varchar(30)
+  username varchar(30)
   password varchar(100)
   is_superuser bit
   created_at timestamp
